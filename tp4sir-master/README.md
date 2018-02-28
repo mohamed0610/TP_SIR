@@ -103,8 +103,7 @@ La dernière est de type POST @POST pour ajouter une maison, dans ce cas on doit
 Pareil pour UserInfo.java .
  ## API services' URIs
  
- Resource used : ```application/json```
- Base URI : ```localhost:9002/rest/```
+
 
 
 | Method     | URL | Action   |
