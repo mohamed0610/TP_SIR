@@ -98,9 +98,13 @@ Quand on rajoute un id après home comme : localhost :8080/rest/home/1 la métho
 L’annotation @Pathparam("id") précise bien que l’id passé en url sera bien le paramètre de la fonction et aussi ici on récupère du json grâce à  @produces(MediaType.APPLICATION8JSON).
 La troisième  est de type delete @DELETE pour supprimer une maison ayant un id précis
 La dernière est de type POST @POST pour ajouter une maison, dans ce cas on doit fournir à la méthode addHome  une maison sous format JSON  « @consumes(MediaType.APPLICATION8JSON)».
-
+```
 
 Pareil pour UserInfo.java .
+ ## API services' URIs
+ 
+ Resource used : ```application/json```
+ Base URI : ```localhost:9002/rest/```
 
 
 | Method     | URL | Action   |
